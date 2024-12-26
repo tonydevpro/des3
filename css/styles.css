@@ -1,0 +1,94 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Fundo escuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #e0e0e0; /* Texto claro */
+}
+
+.container {
+    text-align: center;
+    background-color: #1e1e1e; /* Caixa com fundo mais escuro */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8); /* Sombra mais intensa */
+    width: 320px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #bb86fc; /* Cor roxa suave */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 18px;
+    color: #b0b0b0; /* Cor suave para o texto */
+}
+
+input {
+    padding: 12px;
+    font-size: 18px;
+    border: 1px solid #3a3a3a; /* Borda escura */
+    border-radius: 8px;
+    background-color: #2a2a2a; /* Fundo mais escuro para o input */
+    color: #e0e0e0; /* Cor do texto claro */
+    outline: none;
+}
+
+input:focus {
+    border-color: #bb86fc; /* Cor roxa suave no foco */
+}
+
+button {
+    padding: 12px 18px;
+    font-size: 18px;
+    color: white;
+    background-color: #6200ee; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3700b3; 
+}
+
+#table-container {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #e0e0e0; 
+}
+
+table {
+    margin-top: 15px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #3a3a3a; 
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    background-color: #333; 
+    color: #e0e0e0; 
+}
+
+th {
+    background-color: #444; 
+}
